@@ -164,3 +164,22 @@ body {
 		transform: scale3d(1, 1, 1);
 	}
 }
+
+@media only screen and (max-width: 700px) {
+	.container {
+		width: 100vw;
+	}
+	.game-title {
+		font-size: 2rem;
+	}
+	.footer-container {
+		width: 100vw;
+	}
+	.timer,
+	.score {
+		width: 30vw;
+	}
+	.score-titel {
+		margin-top: 0.2rem;
+	}
+}
