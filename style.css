@@ -6,12 +6,13 @@
 	padding: 0;
 }
 body {
-	background-color: aqua;
+	background-color: #fff;
 }
 
 .container {
-	border-radius: 5%;
-	background-color: orange;
+	border: 10px solid #a80054;
+	border-radius: 15px;
+	background-color: #bbb;
 	margin: auto;
 	display: grid;
 	width: 70vw;
@@ -24,8 +25,8 @@ body {
 .game-title {
 	font-family: "Monoton", cursive;
 	text-align: center;
-	font-size: 2rem;
-	color: rgb(47, 54, 52);
+	font-size: 3rem;
+	color: #a80054;
 	grid-area: 1/1/2/5;
 }
 
@@ -103,13 +104,14 @@ body {
 	display: flex;
 	align-items: center;
 	width: 15vw;
-	background-color: orange;
+	background-color: #a80054;
 }
 
 .footer-container .timer {
 	justify-content: center;
 	font-size: 2rem;
 	font-weight: bold;
+	color: #fff;
 }
 .footer-container .restart {
 	width: fit-content;
@@ -122,12 +124,15 @@ body {
 	flex-direction: column;
 }
 .score-titel {
+	margin-top: 0.5rem;
 	font-size: 1rem;
 	font-weight: bold;
+	color: #fff;
 }
 #points {
 	font-size: 2rem;
 	font-weight: bold;
+	color: #fff;
 }
 
 @keyframes matched-Anime {
